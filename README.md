@@ -6,7 +6,8 @@ The code is based on the work of [S.T. Tsao](https://github.com/tsaost/autoload-
 
 ## Usage
 
-1. Open file [autoconfig.js](autoconfig.js) in a text editor and change `"D:\\src\\lightproxy"` (in line 8) to the absolute path of a local unsigned add-on that you want to load automatically whenever Firefox is started. Add additional `installExtension(...)` lines below if you want to load multiple add-ons.
+1. Open file [autoconfig.js](autoconfig.js) in a text editor and change `"D:\\src\\lightproxy"` (in line 8) to the absolute path of a local unsigned add-on that you want to load automatically whenever Firefox is started. It must be an unpacked add-on, i.e. a folder, *not* a `.zip` or `.xpi` archive.  
+Add additional `installExtension(...)` lines below if you want to load multiple add-ons.
 
 2. Copy the edited `autoconfig.js` into folder `[Firefox program folder]`.  
   In Windows that's by default `C:\Program Files\Mozilla Firefox`.  
