@@ -19,4 +19,4 @@ Add additional `installExtension(...)` lines below if you want to auto-load mult
   In Windows that's by default `C:\Program Files\Mozilla Firefox\defaults\pref`.  
   *Note: this requires administrator privileges.*
 
-4. Restart Firefox. Your unsigned add-on(s) should now be loaded. If not, check the browser console (Ctrl+Shift+J).
+4. Restart Firefox. Your unsigned add-on(s) should now be loaded. If not, check the browser console (Ctrl+Shift+J) for error messages.
