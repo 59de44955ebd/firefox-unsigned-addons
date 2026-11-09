@@ -1,6 +1,8 @@
 # firefox-unsigned-addons
 
-This repository contains two small files that can be used to automatically load local unsigned add-ons into [Mozilla Firefox](https://www.firefox.com/), by using a mechanism called [AutoConfig](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). It's meant for people who know what they are doing, if you do not, don't use it.
+This repository contains two small files that can be used to automatically load local unsigned add-ons into recent versions of [Mozilla Firefox](https://www.firefox.com/), by using a mechanism called [AutoConfig](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). It's meant for people who know what they are doing, if you do not, don't use it.
+
+As stated above, it's meant for recent Firefox versions only and was tested in Firefox 159.0.1 x64 in Windows 11.
 
 The code is based on the work of [S.T. Tsao](https://github.com/tsaost/autoload-temporary-addon) and others.
 
