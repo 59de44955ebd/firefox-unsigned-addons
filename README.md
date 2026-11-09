@@ -20,3 +20,18 @@ Add additional `installExtension(...)` lines below if you want to auto-load mult
   *Note: this requires administrator privileges.*
 
 4. Restart Firefox. Your unsigned add-on(s) should now be loaded. If not, check the browser console (Ctrl+Shift+J) for error messages.
+
+## How it works
+
+File `config-prefs.js` contains the following 3 lines:
+
+1. `pref("general.config.filename", "autoconfig.js");`  
+This line specifies that the `AutoConfig` file we want to load has the file name `autoconfig.js`. Paths are not supported, the corresponding file must be in the Firefox root folder.
+
+2. `pref("general.config.obscure_value", 0);`  
+This line specifies that our `autoconfig.js` is unscrambled plain text (otherwise Firefox would expect it to be `ROT13` encoded).
+
+3. `pref("general.config.sandbox_enabled", false);`  
+This line disables sandboxing (only) for the `AutoConfig` process.
+
+In script `autoconfig.js` we then tell Firefox to load our unsigned add-on(s) when the [final-ui-startup](https://firefox-source-docs.mozilla.org/browser/BrowserStartup.html) notification was received.
