@@ -10,5 +10,5 @@ try {
 		}
 	}, "final-ui-startup", false);
 } catch(ex) {
-	Components.utils.reportError(`[userChrome.js] ${ex}`);
+	Components.utils.reportError(`[autoconfig.js] ${ex}`);
 };
