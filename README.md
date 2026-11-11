@@ -29,7 +29,7 @@ File `config-prefs.js` contains the following 3 lines:
 This line specifies that the `AutoConfig` file we want to load has the file name `autoconfig.js`. Paths are not supported, the corresponding file must be in the Firefox root folder.
 
 2. `pref("general.config.obscure_value", 0);`  
-This line specifies that our `autoconfig.js` is unscrambled plain text (otherwise Firefox would expect it to be `ROT13` encoded).
+This line specifies that our `autoconfig.js` is unencrypted plain text (otherwise Firefox would expect it to be `ROT13` encoded).
 
 3. `pref("general.config.sandbox_enabled", false);`  
 This line disables sandboxing (only) for the `AutoConfig` process.
