@@ -2,7 +2,7 @@
 
 This repository contains two small files that can be used to automatically load unsigned extensions (and possibly also other types of add-ons, not tested) into recent versions of [Mozilla Firefox](https://www.firefox.com/), by using a mechanism called [AutoConfig](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). The files are meant for people who know what they are doing, if you do not, don't use them.
 
-As stated above, the files are meant for recent Firefox versions only and were tested in Firefox 159.0.1 x64 in Windows 11.
+As stated above, the files are meant for recent Firefox versions only and were tested in Firefox 159 and later.
 
 The code is based on the work of [S.T. Tsao](https://github.com/tsaost/autoload-temporary-addon) and others.
 
